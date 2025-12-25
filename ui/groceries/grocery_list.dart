@@ -40,11 +40,12 @@ class _GroceryListState extends State<GroceryList> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Your Groceries'),
+        actions: [IconButton(onPressed: onCreate, icon: const Icon(Icons.add))],
       ),
       body: content,
       bottomNavigationBar: BottomNavigationBar(
         items: const [
-          
+
           BottomNavigationBarItem(
             icon: Icon(Icons.local_grocery_store),
             label: 'Groceries',
