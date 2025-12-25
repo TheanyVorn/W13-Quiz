@@ -44,6 +44,7 @@ class _GroceryListState extends State<GroceryList> {
       body: content,
       bottomNavigationBar: BottomNavigationBar(
         items: const [
+          
           BottomNavigationBarItem(
             icon: Icon(Icons.local_grocery_store),
             label: 'Groceries',
